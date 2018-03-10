@@ -46,6 +46,16 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas:
+        "money money money money cash cash cash cash"
+        "money money money money cash cash cash cash"
+        "money money money money cash cash cash cash"
+        "money money money money cash cash cash cash"        
+    }
+
+    .item3 {
+      grid-column: money-start / cash-end;
+      grid-row-end: money-end;
     }
   </style>
 </body>
